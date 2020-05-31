@@ -9,7 +9,13 @@
     <form action="send.php" method="post">
     <input type="text" name="nombre" id="nombre" placeholder="Nombre">
     <input type="email" name="email" id="email" placeholder="Correo">
-    <input type="submit" value="Enviar datos">
+    <button type="submit" onClick="submitform()"; return false;>Enviar</button>
     </form>
+    <script>
+        function submitform(){
+      	alert("Formulario enviado desde Java Script");
+      	document.getElementById('form').submit();
+      }
+    </script>
 </body>
 </html>
