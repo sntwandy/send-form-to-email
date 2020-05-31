@@ -9,7 +9,7 @@
     $message = "Este mensaje fue enviado por " . $name . "\r\n";
     $message .= "Su email es: " . $email . "\r\n";
 
-    $para = "20161444@miucateci.edu.do";
+    $para = "sntwandy@gmail.com";
     $asunto = "Prueba de correo";
 
     mail($para, $asunto, utf8_decode($message), $header);
