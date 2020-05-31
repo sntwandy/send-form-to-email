@@ -12,7 +12,7 @@
     $para = 'sntwandy@gmail.com';
     $asunto = 'Prueba de correo';
 
-    mail($para, $asunto, utf8_decode($mensaje), $header);
+    @mail($para, $asunto, utf8_decode($mensaje), $header);
 
     echo 'Mensaje enviado correctamente';
 ?>
