@@ -9,8 +9,8 @@
     $mensaje = "Este mensaje fue enviado por " . $nombre . "\r\n";
     $mensaje .= "Su email es: " . $email . "\r\n";
 
-    $para = 'sntwandy@gmail.com';
-    $asunto = 'Prueba de correo';
+    $para = "sntwandy@gmail.com";
+    $asunto = "Prueba de correo";
 
     @mail($para, $asunto, utf8_decode($mensaje), $header);
 
