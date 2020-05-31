@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="send.php" method="post">
+    <form id="form" action="send.php" method="post">
     <input type="text" name="nombre" id="nombre" placeholder="Nombre">
     <input type="email" name="email" id="email" placeholder="Correo">
     <button type="submit" onClick="submitform()"; return false;>Enviar</button>
